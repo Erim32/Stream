@@ -1,0 +1,153 @@
+.navbar{
+	min-height: 70px;
+	position: inherit;
+}
+
+.navbar-right{margin-right: 6%!important;}
+
+.container{
+	margin-top: 8px;
+}
+
+
+.navbar-inverse {
+background-color: #009B3A;
+background-image: -webkit-linear-gradient(top,#A50D0D 0,#F00 100%);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: #FFFAFA;
+font-size: 20px;
+font-family: monospace;
+}
+
+
+
+#main{
+z-index: 1;
+background-image: url("ress/img/bg.jpg");
+}
+
+ul.videos li{
+	width: 27em;
+
+}
+
+.video{
+margin-top: 4%;
+}
+
+.miniaturevideo{
+opacity:1;
+background-color:#ffffff;
+margin-top: 20px;
+}
+
+.miniaturevideo:hover {
+opacity:0.85;
+}
+
+.titlec, .titlec:hover{
+font-weight: bold;
+display: block;
+font-size: 14px;
+color: #ffffff;
+text-decoration: none;
+}
+/***************************/
+/*********VIDEO*************/
+/***************************/
+ul.videos li {
+  float: left;
+ /*width: 10em;*/
+  margin-bottom: 1em;
+}
+ul.videos
+{
+  margin-bottom: 1em;
+  padding-left : 0em;
+  margin-left: 0em;
+  list-style: none;
+}
+
+
+
+
+/*-------------------------
+	The footer
+--------------------------*/
+
+.credit{
+text-align: center;
+margin: 0 0 0 0;
+color: #ffffff;
+background-color:#31353a;
+}
+
+
+footer{
+	height: 225px;
+	color:#ccc;
+	font-size:12px;
+	display: block;
+	position:relative;
+	z-index:0;
+
+	background-color:#31353a;
+/*
+	background-image:-webkit-linear-gradient(top, #31353a, #2f3337);
+	background-image:-moz-linear-gradient(top, #31353a, #2f3337);
+	background-image:linear-gradient(top, #31353a, #2f3337);*/
+}
+
+/* Set a width to the outermost UL and center it */
+
+footer  ul{
+	width:960px;
+	position:absolute;
+	left:50%;
+	bottom:0;
+	margin-left:-480px;
+	padding-bottom: 60px;
+;
+}
+
+/* The four columns of links */
+
+footer  ul > li{
+	width:25%;
+	float:left;
+}
+
+footer ul{
+	list-style: none;
+}
+
+/* The links */
+
+footer  ul > li ul li{
+	margin-left:43px;
+	text-transform: uppercase;
+	font-weight:bold;
+	line-height:1.8;
+}
+
+footer  ul > li ul li a{
+	text-decoration: none !important;
+	color:#7d8691 !important;
+}
+
+footer  ul > li ul li a:hover{
+	color:#ddd !important;
+}
+
+
+footer  ul > li:hover p{
+	opacity:1;
+}
+
+
+}
+/**FIN FOOTER***/
+ 
+ /*************CONTACT***************/
